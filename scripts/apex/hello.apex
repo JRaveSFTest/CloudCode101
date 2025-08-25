@@ -10,3 +10,7 @@ Date today = Date.today();
 system.debug(today);
 Datetime now = Datetime.now();
 system.debug(now);
+integer a = 5;
+integer b = 10;
+integer sum = a + b;
+system.debug(sum);
