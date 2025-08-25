@@ -1,17 +1,17 @@
-//understanding logical operators
-Boolean a = true;
-Boolean b = false;
-// two logical operators
-// && AND Operator
-//|| OR operator
+//building a calculator
+integer number1 = 2;
+integer number2 = 10;
 
-system.debug('A: '+ a); // true
-system.debug('B: '+ b); //false
+string operator = 'mod';
 
-//logical AND operator
-//All conditions need to be true
-system.debug('Logical And: ' + (a && b)); //false
-
-//logical OR operators
-//either condition can be true
-system.debug('Logical Or: '+ (a || b));
+if (operator == 'addition') {
+    System.debug('Sum: ' + (number1 + number2));
+} else if (operator == 'subtract') {
+    System.debug('Difference: ' + (number1 - number2));
+} else if (operator == 'multiply') {
+    System.debug('Product: ' + (number1 * number2));
+} else if (operator == 'divide') {
+    System.debug('Quotient: ' + (number1 / number2));
+} else {
+    System.debug('Invalid operator');
+}
