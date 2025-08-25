@@ -1,16 +1,17 @@
-//decimal for holding money
-Decimal money = 100.00;
-system.debug(money);
-//Boolean for holding true or false
-Boolean isWinner = true;
-system.debug(isWinner);
-String messageForHelloWorld = 'Hello World!';
-system.debug(messageForHelloWorld);
-Date today = Date.today();
-system.debug(today);
-Datetime now = Datetime.now();
-system.debug(now);
-integer a = 5;
-integer b = 10;
-integer sum = a + b;
-system.debug(sum);
+//understanding logical operators
+Boolean a = true;
+Boolean b = false;
+// two logical operators
+// && AND Operator
+//|| OR operator
+
+system.debug('A: '+ a); // true
+system.debug('B: '+ b); //false
+
+//logical AND operator
+//All conditions need to be true
+system.debug('Logical And: ' + (a && b)); //false
+
+//logical OR operators
+//either condition can be true
+system.debug('Logical Or: '+ (a || b));
